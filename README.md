@@ -1,4 +1,22 @@
-# Music app - TweenMax
+#include <GameDemo>
+#include <DigitalArtDemo>
+#include <WritingSample>
+using namespace std;
 
-A Pen created on CodePen.io. Original URL: [https://codepen.io/jinnrw/pen/ggpgVe](https://codepen.io/jinnrw/pen/ggpgVe).
+int main() {
+    Work file1; // 
+    double information;
+    cout << information.get() << endl;
+    return 0;
+}
 
+clas Work
+{
+   public fileName;
+   public filePath;
+};
+
+double Work::get(void)
+{
+  return fileName + filePath;
+}
